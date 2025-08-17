@@ -4,13 +4,15 @@
       "payload": "",
       "signature": ""
     },
-    "frame": {
-      "name": "dTech - Farcaster docs",
-      "version": "0.0.1",
-      "iconUrl": "https://dtech.vision/icon.png",
-      "homeUrl": "https://dtech.vision/farcaster",
-      "splashImageUrl": "https://dtech.vision/icon.png",
-      "splashBackgroundColor": "#f7f7f7",
-      "webhookUrl": "https://dtech.vision/webhookurl"
+    "miniapp": {
+      "version": "1",
+      "name": "GT -Token Charts",
+      "description": "View and share live token charts from GeckoTerminal (Still in beta), not associated with GeckoTerminal team",
+      "iconUrl": "https://gt-farcaster-mini-app-mvp.vercel.app/icon.png",
+      "homeUrl": "https://gt-farcaster-mini-app-mvp.vercel.app/",
+      "splashImageUrl": "https://gt-farcaster-mini-app-mvp.vercel.app/chart.jpg",
+      "splashBackgroundColor": "#000000",
+      "primaryCategory": "finance",
+      "subtitle": "Charts from GeckoTerminal"
     }
   }
