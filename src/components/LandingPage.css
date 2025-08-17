@@ -1,0 +1,45 @@
+.landing-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.landing-content {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.landing-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.landing-description {
+  font-size: 1.5rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.lorem-text {
+  color: #2d3748;
+  line-height: 1.7;
+}
+
+.lorem-text p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.lorem-text p:last-child {
+  margin-bottom: 0;
+}
