@@ -35,6 +35,11 @@ function ChartPage() {
     }
   };
 
+  const handleCopy = (text) => {
+    navigator.clipboard.writeText(text);
+    alert("Copied to clipboard!");
+  };
+
   return (
     <div className="chart-page">
       <div className="chart-container">
@@ -67,7 +72,18 @@ function ChartPage() {
               No token address provided. Please add ?token_address=xyz123 to the
               URL.
             </p>
-            <p>Example: /chart?token_address=0x123...</p>
+            <p>
+              Click this link as example:{" "}
+              <code
+                onClick={() =>
+                  (window.location.href = `${window.location.origin}/chart?token_address=0xed6e000def95780fb89734c07ee2ce9f6dcaf110`)
+                }
+                style={{ cursor: "pointer" }}
+              >
+                {window.location.origin}
+                /chart?token_address=0xed6e000def95780fb89734c07ee2ce9f6dcaf110
+              </code>
+            </p>
           </div>
         )}
       </div>
