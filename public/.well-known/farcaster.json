@@ -6,7 +6,7 @@
     },
     "miniapp": {
       "version": "1",
-      "name": "GT -Token Charts",
+      "name": "GT - Token Charts",
       "description": "View and share live token charts from GeckoTerminal (Still in beta), not associated with GeckoTerminal team",
       "iconUrl": "https://gt-farcaster-mini-app-mvp.vercel.app/icon.png",
       "homeUrl": "https://gt-farcaster-mini-app-mvp.vercel.app/",
